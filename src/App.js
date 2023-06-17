@@ -21,7 +21,7 @@ function App() {
     <>
       <ScrollToTop />
       <Routes>
-        <Route path="/Signup" element={<SignUp/>} />
+        <Route path="/" element={<SignUp/>} />
         <Route path="/signin" element={<SignIn/>} />
         <Route path="/forgotpassword" element={<ForgotPassword/>} />
         <Route path="/verifyemail" element={<VerifyEmail/>} />

@@ -16,7 +16,7 @@ const SignIn = () => {
         <div className="Container-login-details">
           <form className="">
             <h1 className="text-2xl font-bold text-black">Sign In</h1>
-            <p onClick={() => navigate("/signup")}>
+            <p onClick={() => navigate("/")}>
               Already have an account?{" "}
               <span className="text-orange-600"> Sign Up</span>{" "}
             </p>

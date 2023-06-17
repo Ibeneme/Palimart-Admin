@@ -33,7 +33,7 @@ const ForgotPassword = () => {
             </div>
 
             <p
-              onClick={() => navigate("/signup")}
+              onClick={() => navigate("/")}
               style={{
                 display: "flex",
                 justifyContent: "flex-end",
